@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{B794F275-4546-3D3E-2A80-0F8A67125210}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "HKPoolingSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
