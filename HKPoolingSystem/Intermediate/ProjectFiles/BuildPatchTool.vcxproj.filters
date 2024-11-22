@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{A35315F7-E9AF-4A77-AF12-04B1FDDEFC6A}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{B5BB1DA7-C13C-46A2-91AF-9D47BF02531F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Private\ToolModes">
+      <UniqueIdentifier>{2D1ED43E-D299-48D2-B125-2C3D30BEDBFD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\ChunkDeltaOptimiseMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
+      <Filter>Private\ToolModes</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{2B4ADC38-B2F8-4939-B6B8-3726CFF47E43}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="Public\Interfaces">
+      <UniqueIdentifier>{C2895EDD-57F9-46CE-BDF1-8D4725507681}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
+      <Filter>Public\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Public\ToolModes">
+      <UniqueIdentifier>{491653C7-AF32-4FB6-BC82-D071EB39B342}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\ChunkDeltaOptimiseMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h">
+      <Filter>Public\ToolModes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HKPoolingSystem.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6416BDDC-9AC1-4AA3-824D-56EF7EC146C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HKPoolingSystem.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HKPoolingSystemEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2E6A513D-A8A2-47F1-B190-36B9F1915B9C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{AB30EDD4-A742-4FC1-9E4D-5DD2B30B4E72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HK_PoolingSystem">
+      <UniqueIdentifier>{30E61FC3-BCEB-4B7B-913D-C95D060ADAEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HK_PoolingSystem\Source">
+      <UniqueIdentifier>{B8F7D363-04F5-4BDF-974A-4F32C2A5ABD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HK_PoolingSystem\Source\HK_PoolingSystem">
+      <UniqueIdentifier>{CC02D545-42FD-4B05-96C4-421E33B404EE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\HK_PoolingSystem.Build.cs">
+      <Filter>Plugins\HK_PoolingSystem\Source\HK_PoolingSystem</Filter>
+    </None>
+    <Filter Include="Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Private">
+      <UniqueIdentifier>{FADD1F74-E982-429B-BED3-40C258384928}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Private\HK_Poolable.cpp">
+      <Filter>Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Private\HK_PoolingSubSystem.cpp">
+      <Filter>Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Private\HK_PoolingSystem.cpp">
+      <Filter>Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Public">
+      <UniqueIdentifier>{BCD4ABAB-850A-4346-9724-5DB6E4DBD387}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Public\HK_Poolable.h">
+      <Filter>Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Public\HK_PoolingSubSystem.h">
+      <Filter>Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Public\HK_PoolingSystem.h">
+      <Filter>Plugins\HK_PoolingSystem\Source\HK_PoolingSystem\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\HK_PoolingSystem\HK_PoolingSystem.uplugin">
+      <Filter>Plugins\HK_PoolingSystem</Filter>
+    </None>
+    <Filter Include="Plugins\HK_PoolingSystem\Resources">
+      <UniqueIdentifier>{763F1626-7804-4573-99F4-244549D8764F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HK_PoolingSystem\Resources\Icon128.png">
+      <Filter>Plugins\HK_PoolingSystem\Resources</Filter>
+    </None>
+    <Filter Include="Source\HKPoolingSystem">
+      <UniqueIdentifier>{1B13BD42-0C00-4555-BA5C-7808BEA649D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HKPoolingSystem\HKPoolingSystem.Build.cs">
+      <Filter>Source\HKPoolingSystem</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HKPoolingSystem\HKPoolingSystem.cpp">
+      <Filter>Source\HKPoolingSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HKPoolingSystem\HKPoolingSystem.h">
+      <Filter>Source\HKPoolingSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HKPoolingSystem\HKPoolingSystemGameModeBase.cpp">
+      <Filter>Source\HKPoolingSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HKPoolingSystem\HKPoolingSystemGameModeBase.h">
+      <Filter>Source\HKPoolingSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HKPoolingSystem\TestSubSystem.cpp">
+      <Filter>Source\HKPoolingSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HKPoolingSystem\TestSubSystem.h">
+      <Filter>Source\HKPoolingSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

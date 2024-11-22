@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HK_PoolingSystem-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Plugins\HK_PoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HK_PoolingSystem\Module.HK_PoolingSystem.cpp.obj"
+"E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Plugins\HK_PoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HK_PoolingSystem\Module.HK_PoolingSystem.gen.cpp.obj"
+"G:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Plugins\HK_PoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HK_PoolingSystem\UE4Editor-HK_PoolingSystem-0001.lib"

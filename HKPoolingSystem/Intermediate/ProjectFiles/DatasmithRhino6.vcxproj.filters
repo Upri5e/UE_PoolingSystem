@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino6.Target.cs" />
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino6.Build.cs" />
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino7.Build.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{61752C8D-FE1D-434E-B841-D675A28F1C1E}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Config\DatasmithRhino.rhp.config">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Config\Notarization.entitlements">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="DatasmithRhino6">
+      <UniqueIdentifier>{44FD96AA-FF16-4239-96E8-0E9233DE6A40}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino6\DatasmithRhino6.cs">
+      <Filter>DatasmithRhino6</Filter>
+    </None>
+    <Filter Include="DatasmithRhino7">
+      <UniqueIdentifier>{9A62C61A-E135-46D5-B5ED-821FFB26FA11}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino7\DatasmithRhino7.cs">
+      <Filter>DatasmithRhino7</Filter>
+    </None>
+    <Filter Include="Installer">
+      <UniqueIdentifier>{C9890A6E-CA04-48DF-A5AE-ADB58ED12AC1}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CreateMacPackages.sh">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CreateMultilanguageInstaller.bat">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CreateMultilanguageInstaller.py">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CustomActions.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CustomExitDialog.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CustomInstallDirDlg.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CustomLicenseAgreementDlg.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CustomWelcomeDialog.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\CustomWixUI_InstallDir.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\GenericUiBrandDialog.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Installer.wixproj">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\ReadMe.txt">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\RhinoExporter.wxs">
+      <Filter>Installer</Filter>
+    </None>
+    <Filter Include="Installer\Localization">
+      <UniqueIdentifier>{1AB41F85-8EC0-4788-9B1F-02C9CC1DB6D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\de-de.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\en-us.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\es-es.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\fr-fr.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\ja-jp.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\ko-kr.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\pt-br.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\UtilExtension_es-es.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\UtilExtension_fr-fr.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\UtilExtension_ja-jp.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\UtilExtension_ko-kr.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\UtilExtension_pt-br.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\UtilExtension_zh-cn.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Localization\zh-cn.wxl">
+      <Filter>Installer\Localization</Filter>
+    </None>
+    <Filter Include="Installer\Resources">
+      <UniqueIdentifier>{6F293C1F-E215-43BF-9177-56835678DEBD}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Banner.bmp">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\default_small_banner.bmp">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Dialog.bmp">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Exporter Plugin End User License Agreement.docx">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Exporter Plugin End User License Agreement.rtf">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Microsoft_VC140_CRT_x64.msm">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Microsoft_VC140_OpenMP_x64.msm">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\UnrealEngine.ico">
+      <Filter>Installer\Resources</Filter>
+    </None>
+    <Filter Include="Installer\Resources\General">
+      <UniqueIdentifier>{C9160973-4E73-48ED-98E5-0CC9D3C74239}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\General\banner.bmp">
+      <Filter>Installer\Resources\General</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\General\unreal-logo.jpg">
+      <Filter>Installer\Resources\General</Filter>
+    </None>
+    <Filter Include="Installer\Resources\Images">
+      <UniqueIdentifier>{ABD85832-6A7F-466B-8CA2-1FFA7FDC393E}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\Epic_Games_logo.bmp">
+      <Filter>Installer\Resources\Images</Filter>
+    </None>
+    <Filter Include="Installer\Resources\Images\Background">
+      <UniqueIdentifier>{A0D65039-6519-40F6-B1C4-26A1B5C356EA}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\Background\28190.bmp">
+      <Filter>Installer\Resources\Images\Background</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\Background\28402.bmp">
+      <Filter>Installer\Resources\Images\Background</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\Background\28674.bmp">
+      <Filter>Installer\Resources\Images\Background</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\Background\30668.bmp">
+      <Filter>Installer\Resources\Images\Background</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\Background\30725.bmp">
+      <Filter>Installer\Resources\Images\Background</Filter>
+    </None>
+    <Filter Include="Installer\Resources\Images\General">
+      <UniqueIdentifier>{04303DB1-0E6A-4347-8F1E-1ED6F037D8A8}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\General\banner.bmp">
+      <Filter>Installer\Resources\Images\General</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Installer\Resources\Images\General\unreal-logo.jpg">
+      <Filter>Installer\Resources\Images\General</Filter>
+    </None>
+    <Filter Include="Private">
+      <UniqueIdentifier>{9F331C17-88AE-4147-AF7F-3A602A0F3BE0}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\DatasmithRhinoExportContext.cs">
+      <Filter>Private</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\DatasmithRhinoExportOptions.cs">
+      <Filter>Private</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\DatasmithRhinoPlugin.cs">
+      <Filter>Private</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\DatasmithRhinoSceneExporter.cs">
+      <Filter>Private</Filter>
+    </None>
+    <Filter Include="Private\Commands">
+      <UniqueIdentifier>{CD45176C-80AE-4A3B-8B54-033CB3766FCF}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Commands\DatasmithDirectLinkConnectionsCommand.cs">
+      <Filter>Private\Commands</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Commands\DatasmithDirectLinkSyncCommand.cs">
+      <Filter>Private\Commands</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Commands\DatasmithExportCommand.cs">
+      <Filter>Private\Commands</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Commands\DatasmithMessagesCommand.cs">
+      <Filter>Private\Commands</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Commands\DatasmithToggleAutoSyncCommand.cs">
+      <Filter>Private\Commands</Filter>
+    </None>
+    <Filter Include="Private\DirectLink">
+      <UniqueIdentifier>{75D97BEA-C045-44E8-845B-30CB32F644E5}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\DirectLink\DatasmithRhinoChangeListener.cs">
+      <Filter>Private\DirectLink</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\DirectLink\DatasmithRhinoDirectLinkManager.cs">
+      <Filter>Private\DirectLink</Filter>
+    </None>
+    <Filter Include="Private\ElementExporters">
+      <UniqueIdentifier>{89DCF6A6-C54C-4BF1-8E80-F16B927E081E}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\ElementExporters\DatasmithRhinoActorExporter.cs">
+      <Filter>Private\ElementExporters</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\ElementExporters\DatasmithRhinoMaterialExporter.cs">
+      <Filter>Private\ElementExporters</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\ElementExporters\DatasmithRhinoMeshExporter.cs">
+      <Filter>Private\ElementExporters</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\ElementExporters\DatasmithRhinoTextureExporter.cs">
+      <Filter>Private\ElementExporters</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\ElementExporters\IDatasmithRhinoElementExporter.cs">
+      <Filter>Private\ElementExporters</Filter>
+    </None>
+    <Filter Include="Private\Utils">
+      <UniqueIdentifier>{3C642215-8D15-4F64-95CB-8D5439156499}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Utils\DatasmithRhinoLogManager.cs">
+      <Filter>Private\Utils</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Utils\DatasmithRhinoProgressManager.cs">
+      <Filter>Private\Utils</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Utils\DatasmithRhinoUniqueNameGenerator.cs">
+      <Filter>Private\Utils</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Private\Utils\DatasmithRhinoUtilities.cs">
+      <Filter>Private\Utils</Filter>
+    </None>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{16200763-78EA-4737-A132-2087CA8CCCD6}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Properties\DefaultAssemblyInfo.cs">
+      <Filter>Properties</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\Properties\GeneratedAssemblyInfo.cs.template">
+      <Filter>Properties</Filter>
+    </None>
+    <Filter Include="SharedResources">
+      <UniqueIdentifier>{843DB65F-D8CD-4C97-86BC-356BA9D7D0CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\DatasmithRhino.plist">
+      <Filter>SharedResources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\DatasmithRhino.rui">
+      <Filter>SharedResources</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\UnrealEngine.ico">
+      <Filter>SharedResources</Filter>
+    </None>
+    <Filter Include="SharedResources\Localization">
+      <UniqueIdentifier>{B6D30E50-FC4A-4DAA-A3E4-146E27175603}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.de.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.de.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.es.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.es.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.fr.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.fr.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.ja.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.ja.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.ko.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.ko.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.pt.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.pt.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.zh.Designer.cs">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\SharedResources\Localization\Resources.zh.resx">
+      <Filter>SharedResources\Localization</Filter>
+    </None>
+  </ItemGroup>
+</Project>

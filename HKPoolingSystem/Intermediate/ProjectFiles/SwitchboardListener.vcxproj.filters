@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Target.cs" />
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\ReadMe.md" />
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{06A4048A-5035-4E6E-AAA5-18A78E962A2C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerApp.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerMain.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerVersion.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardMessageFuture.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardPacket.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardTasks.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SyncStatus.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{F1F1ABD4-44BB-434F-B77C-D28813A523E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+    <Filter Include="Private\Windows\Resources">
+      <UniqueIdentifier>{94257EC0-6183-4110-A54B-1570D665C371}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico">
+      <Filter>Private\Windows\Resources</Filter>
+    </None>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.h">
+      <Filter>Private\Windows\Resources</Filter>
+    </ClInclude>
+    <ResourceCompile Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc">
+      <Filter>Private\Windows\Resources</Filter>
+    </ResourceCompile>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc2">
+      <Filter>Private\Windows\Resources</Filter>
+    </None>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{A3F0A53D-38D5-4796-B456-CCC2E6F37A1E}</UniqueIdentifier>
+    </Filter>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py">
+      <Filter>Tests</Filter>
+    </None>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Tests\transfer_test.cfg">
+      <Filter>Tests</Filter>
+    </None>
+  </ItemGroup>
+</Project>

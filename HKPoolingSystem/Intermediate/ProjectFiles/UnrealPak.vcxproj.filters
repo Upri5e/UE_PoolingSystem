@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{68A1046B-865F-493E-9A48-30E70D1AD6CE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

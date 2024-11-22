@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Target.cs" />
+    <None Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{31DC9319-55D1-43BC-811C-AC66237A53B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private\DatasmithArchiCAD.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="G:\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private\DatasmithArchiCAD.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

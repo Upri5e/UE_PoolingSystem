@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HKPoolingSystem",
+			"Path": "E:\\Game Dev\\UnrealProjects\\UE_PoolingSystem\\HKPoolingSystem\\Source\\HKPoolingSystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HKPoolingSystemEditor",
+			"Path": "E:\\Game Dev\\UnrealProjects\\UE_PoolingSystem\\HKPoolingSystem\\Source\\HKPoolingSystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

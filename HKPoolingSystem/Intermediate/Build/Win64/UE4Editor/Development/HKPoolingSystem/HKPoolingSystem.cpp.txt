@@ -1,0 +1,2 @@
+E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HKPoolingSystem\Definitions.HKPoolingSystem.h
+E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Source\HKPoolingSystem\HKPoolingSystem.h

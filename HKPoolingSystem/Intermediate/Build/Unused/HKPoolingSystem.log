@@ -1,0 +1,31 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (G:\UnrealEngine).
+  Using 'git status' to determine working set for adaptive non-unity build (E:\Game Dev\UnrealProjects\UE_PoolingSystem).
+  Creating makefile for HKPoolingSystemEditor (no existing makefile)
+  Creating makefile for UnrealHeaderTool (no existing makefile)
+  Parsing headers for HKPoolingSystemEditor
+    Running UnrealHeaderTool "E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\HKPoolingSystem.uproject" "E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Intermediate\Build\Win64\HKPoolingSystemEditor\Development\HKPoolingSystemEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="G:\UnrealEngine\Engine\Programs\UnrealBuildTool\Log_UHT.txt"
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for HKPoolingSystemEditor in 2.6513371 seconds
+  Creating makefile for ShaderCompileWorker (no existing makefile)
+  Building HKPoolingSystemEditor and ShaderCompileWorker...
+  Using Visual Studio 2022 14.41.34120 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 13 actions with 20 processes...
+    [1/13] TestSubSystem.cpp
+    [2/13] HKPoolingSystem.cpp
+    [3/13] HKPoolingSystem.init.gen.cpp
+    [4/13] HKPoolingSystemGameModeBase.cpp
+    [5/13] TestSubSystem.gen.cpp
+    [6/13] HKPoolingSystemGameModeBase.gen.cpp
+    [7/13] UE4Editor-HKPoolingSystem.lib
+       Creating library E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HKPoolingSystem\UE4Editor-HKPoolingSystem.lib and object E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HKPoolingSystem\UE4Editor-HKPoolingSystem.exp
+    [8/13] Module.HK_PoolingSystem.gen.cpp
+    [9/13] Module.HK_PoolingSystem.cpp
+    [10/13] UE4Editor-HK_PoolingSystem.lib
+       Creating library E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Plugins\HK_PoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HK_PoolingSystem\UE4Editor-HK_PoolingSystem.lib and object E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Plugins\HK_PoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HK_PoolingSystem\UE4Editor-HK_PoolingSystem.exp
+    [11/13] UE4Editor-HKPoolingSystem.dll
+       Creating library E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HKPoolingSystem\UE4Editor-HKPoolingSystem.suppressed.lib and object E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HKPoolingSystem\UE4Editor-HKPoolingSystem.suppressed.exp
+    [12/13] UE4Editor-HK_PoolingSystem.dll
+       Creating library E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Plugins\HK_PoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HK_PoolingSystem\UE4Editor-HK_PoolingSystem.suppressed.lib and object E:\Game Dev\UnrealProjects\UE_PoolingSystem\HKPoolingSystem\Plugins\HK_PoolingSystem\Intermediate\Build\Win64\UE4Editor\Development\HK_PoolingSystem\UE4Editor-HK_PoolingSystem.suppressed.exp
+    [13/13] HKPoolingSystemEditor.target
+  Total time in Parallel executor: 1.51 seconds
+  Total execution time: 24.66 seconds
