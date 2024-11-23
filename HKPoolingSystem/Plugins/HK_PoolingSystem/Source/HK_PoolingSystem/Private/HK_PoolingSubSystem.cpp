@@ -49,7 +49,7 @@ bool UHK_PoolingSubSystem::SpawnFromPool(TSubclassOf<AActor> PoolClass, FVector 
 			AActor* OldestActor = ObjectPool.Active[0];
 			ObjectPool.Active.Remove(OldestActor);
 
-			UE_LOG(LogTemp, Warning, TEXT("Replace actor %s"), *OldestActor->GetName());
+			UE_LOG(LogTemp, Warning, TEXT("Replace actor %s to spawn %s"), *OldestActor->GetName(), *PoolClass->GetName());
 
 			SpawnedActor = OldestActor;
 			SpawnedActor->SetActorLocationAndRotation(Location, Rotation);
@@ -59,9 +59,12 @@ bool UHK_PoolingSubSystem::SpawnFromPool(TSubclassOf<AActor> PoolClass, FVector 
 		}
 	}
 
+	UE_LOG(LogTemp, Warning, TEXT("Number of pools %i"), ObjectPools.Num());
+
 	SpawnedActor = SpawnNewActor<AActor>(PoolClass, Location, Rotation);
 	ObjectPool.Active.AddUnique(SpawnedActor);
 	IHK_Poolable::Execute_OnSpawnFromPool(SpawnedActor);
+
 	return true;
 }
 

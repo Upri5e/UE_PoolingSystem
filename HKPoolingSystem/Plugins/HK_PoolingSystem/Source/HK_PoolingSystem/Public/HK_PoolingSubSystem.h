@@ -18,9 +18,9 @@ public:
 	TArray<AActor*> InActive;
 	TArray<AActor*> Active;
 
-	int maxActorNum = 5;
+	int maxActorNum = 3;
 
-	bool bCanExtend = true;
+	bool bCanExtend = false;
 
 	bool IsEmpty()
 	{
