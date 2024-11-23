@@ -13,21 +13,26 @@ struct FPoolArray {
 	GENERATED_USTRUCT_BODY()
 
 public:
-	TArray<AActor*> ObjectPool;
 
-	bool IsEmpty() 
+	//Key is active actors and value is inactive actors
+	TArray<AActor*> InActive;
+	TArray<AActor*> Active;
+
+	int maxActorNum = 5;
+
+	bool bCanExtend = true;
+
+	bool IsEmpty()
 	{
-		return ObjectPool.Num() == 0;
+		return InActive.Num() + Active.Num() == 0;
 	}
-
-	AActor* Pop()
+	bool HasInactiveActor()
 	{
-		return ObjectPool.Pop();
+		return InActive.Num() > 0;
 	}
-
-	void Add(AActor* ActorToAdd)
+	bool CanAddActor()
 	{
-		ObjectPool.Add(ActorToAdd);
+		return InActive.Num() + Active.Num() < maxActorNum;
 	}
 };
 /**
@@ -43,41 +48,28 @@ public:
 	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Pooling Subsystem", meta = (DeterminesOutputType = "PoolClass", DynamicOutputParam="SpawnedActor"))
-	void SpawnFromPool(TSubclassOf<AActor> PoolClass, FVector Location, FRotator Rotation, AActor*& SpawnedActor);
+	bool SpawnFromPool(TSubclassOf<AActor> PoolClass, FVector Location, FRotator Rotation, AActor*& SpawnedActor);
 
 	template <typename T>
-	T* SpawnFromPool(TSubclassOf<AActor> PoolClass, FVector Location, FRotator Rotation);
-
+	T* SpawnNewActor(TSubclassOf<AActor> PoolClass, FVector Location, FRotator Rotation);
 
 	UFUNCTION(BlueprintCallable, Category = "Pooling Subsystem")
 	void ReturnToPool(AActor* Poolable);
 
 	UPROPERTY()
 	TMap<UClass*, FPoolArray> ObjectPools;
-
 };
 
 template <typename T>
-T* UHK_PoolingSubSystem::SpawnFromPool(TSubclassOf<AActor> PoolClass, FVector Location, FRotator Rotation)
+T* UHK_PoolingSubSystem::SpawnNewActor(TSubclassOf<AActor> PoolClass, FVector Location, FRotator Rotation)
 {
 	T* PooledActor = nullptr;
 
 	if (PoolClass.Get()->ImplementsInterface(UHK_Poolable::StaticClass()))
 	{
-		FPoolArray& ObjectPool = ObjectPools.FindOrAdd(PoolClass);
-
-		if (ObjectPool.IsEmpty())
-		{
-			FActorSpawnParameters SpawnParams;
-			SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-			PooledActor = GetWorld()->SpawnActor<T>(PoolClass, Location, Rotation, SpawnParams);
-		}
-		else
-		{
-			PooledActor = CastChecked<T>(ObjectPool.Pop());
-			PooledActor->SetActorLocationAndRotation(Location, Rotation);
-		}
-		IHK_Poolable::Execute_OnSpawnFromPool(PooledActor);
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+		PooledActor = GetWorld()->SpawnActor<T>(PoolClass, Location, Rotation, SpawnParams);
 	}
 	return PooledActor;
 }

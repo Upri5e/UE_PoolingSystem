@@ -18,7 +18,8 @@ public class HK_PoolingSystem : ModuleRules
 		PrivateIncludePaths.AddRange(
 			new string[] {
 				// ... add other private include paths required here ...
-			}
+				"EngineSettings"
+            }
 			);
 			
 		
