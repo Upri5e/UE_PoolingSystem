@@ -7,7 +7,7 @@
 #include "HK_Poolable.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(MinimalAPI)
+UINTERFACE()
 class UHK_Poolable : public UInterface
 {
 	GENERATED_BODY()
