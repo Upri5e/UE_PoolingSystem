@@ -32,13 +32,6 @@ bool UHK_PoolingSubSystem::DoesSupportWorldType(const EWorldType::Type WorldType
 	return Super::DoesSupportWorldType(WorldType);
 }
 
-void UHK_PoolingSubSystem::Initialize(FSubsystemCollectionBase& Collection)
-{
-	Super::Initialize(Collection);
-
-	GetWorld()->OnWorldBeginPlay.AddUObject(this, &UHK_PoolingSubSystem::OnWorldBeginPlay);
-}
-
 void UHK_PoolingSubSystem::Deinitialize()
 {
 	const UHK_PoolingSettings* Settings = GetDefault<UHK_PoolingSettings>();
@@ -62,8 +55,10 @@ void UHK_PoolingSubSystem::Deinitialize()
 	Super::Deinitialize();
 }
 
-void UHK_PoolingSubSystem::OnWorldBeginPlay()
+void UHK_PoolingSubSystem::OnWorldBeginPlay(UWorld& InWorld)
 {
+	Super::OnWorldBeginPlay(InWorld);
+
 	const UHK_PoolingSettings* poolingSettings = GetDefault<UHK_PoolingSettings>();
 	bDestroyOnEnd = poolingSettings->bClearOnEndPlay;
 

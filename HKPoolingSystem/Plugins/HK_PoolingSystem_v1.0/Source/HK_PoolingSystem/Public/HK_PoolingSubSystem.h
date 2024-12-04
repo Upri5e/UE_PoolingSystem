@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/World.h"
 #include "HK_Poolable.h"
 #include "Subsystems/WorldSubsystem.h"
 #include "HK_PoolingSubSystem.generated.h"
@@ -55,11 +56,9 @@ public:
 
 	virtual bool DoesSupportWorldType(const EWorldType::Type WorldType) const override;
 
-	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
-
 	virtual void Deinitialize() override;
 
-	void OnWorldBeginPlay();
+	virtual void OnWorldBeginPlay(UWorld& InWorld) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Pooling Subsystem", meta = (DeterminesOutputType = "PoolClass", DynamicOutputParam = "SpawnedActor"))
 	bool SpawnFromPool(TSubclassOf<AActor> PoolClass, FVector Location, FRotator Rotation, AActor*& SpawnedActor);
